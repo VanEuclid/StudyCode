@@ -1,0 +1,1655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2101D3E32511BE5900B541CC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3BD2511BE5900B541CC /* DataManager.swift */; };
+		2101D3E42511BE5900B541CC /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3BE2511BE5900B541CC /* Segue.swift */; };
+		2101D3E52511BE5900B541CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3C02511BE5900B541CC /* LaunchScreen.storyboard */; };
+		2101D3E62511BE5900B541CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3C22511BE5900B541CC /* Main.storyboard */; };
+		2101D3E72511BE5900B541CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3C52511BE5900B541CC /* Assets.xcassets */; };
+		2101D3E82511BE5900B541CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3C62511BE5900B541CC /* AppDelegate.swift */; };
+		2101D3E92511BE5900B541CC /* RestaurantDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3C92511BE5900B541CC /* RestaurantDetail.storyboard */; };
+		2101D3EA2511BE5900B541CC /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3CA2511BE5900B541CC /* RestaurantDetailViewController.swift */; };
+		2101D3EB2511BE5A00B541CC /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3CC2511BE5900B541CC /* RestaurantListViewController.swift */; };
+		2101D3F42511BE5A00B541CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3DB2511BE5900B541CC /* MapViewController.swift */; };
+		2101D3F52511BE5A00B541CC /* MapLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3DD2511BE5900B541CC /* MapLocations.plist */; };
+		2101D3F72511BE5A00B541CC /* MapDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3DF2511BE5900B541CC /* MapDataManager.swift */; };
+		2101D3FA2511BE5A00B541CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3E22511BE5900B541CC /* SceneDelegate.swift */; };
+		2101D40A2512C3F500B541CC /* New York.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FC2512C3F400B541CC /* New York.json */; };
+		2101D40B2512C3F500B541CC /* Boston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FD2512C3F400B541CC /* Boston.json */; };
+		2101D40C2512C3F500B541CC /* Miami.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FE2512C3F400B541CC /* Miami.json */; };
+		2101D40D2512C3F500B541CC /* San Francisco.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FF2512C3F400B541CC /* San Francisco.json */; };
+		2101D40E2512C3F500B541CC /* Los Angeles.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4002512C3F400B541CC /* Los Angeles.json */; };
+		2101D40F2512C3F500B541CC /* Houston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4012512C3F400B541CC /* Houston.json */; };
+		2101D4102512C3F500B541CC /* Aspen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4022512C3F400B541CC /* Aspen.json */; };
+		2101D4112512C3F500B541CC /* Philadelphia.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4032512C3F400B541CC /* Philadelphia.json */; };
+		2101D4122512C3F500B541CC /* Chicago.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4042512C3F400B541CC /* Chicago.json */; };
+		2101D4132512C3F500B541CC /* Las Vegas.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4052512C3F400B541CC /* Las Vegas.json */; };
+		2101D4142512C3F500B541CC /* New Orleans.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4062512C3F400B541CC /* New Orleans.json */; };
+		2101D4152512C3F500B541CC /* Portland.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4072512C3F500B541CC /* Portland.json */; };
+		2101D4162512C3F500B541CC /* Charleston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4082512C3F500B541CC /* Charleston.json */; };
+		2101D4172512C3F500B541CC /* San Antonio.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4092512C3F500B541CC /* San Antonio.json */; };
+		211B6739252CFBBD007A0957 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B6738252CFBBD007A0957 /* Device.swift */; };
+		211B6742252D0D7E007A0957 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B6741252D0D7E007A0957 /* Messages.framework */; };
+		211B6745252D0D7E007A0957 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B6744252D0D7E007A0957 /* MessagesViewController.swift */; };
+		211B674E252D0D80007A0957 /* MessageApp.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 211B673F252D0D7E007A0957 /* MessageApp.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		211B6758252D0DCA007A0957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211B6757252D0DCA007A0957 /* Assets.xcassets */; };
+		211B675E252D0E37007A0957 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211B675D252D0E36007A0957 /* MainInterface.storyboard */; };
+		211B676A252D0EAF007A0957 /* LetsEatDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 211B6768252D0EAF007A0957 /* LetsEatDataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211B676D252D0EAF007A0957 /* LetsEatDataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B6766252D0EAF007A0957 /* LetsEatDataKit.framework */; };
+		211B676E252D0EAF007A0957 /* LetsEatDataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 211B6766252D0EAF007A0957 /* LetsEatDataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		211B677E252D0FB2007A0957 /* Aspen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4022512C3F400B541CC /* Aspen.json */; };
+		211B6781252D0FB3007A0957 /* Aspen.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4022512C3F400B541CC /* Aspen.json */; };
+		211B6784252D0FC7007A0957 /* Houston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4012512C3F400B541CC /* Houston.json */; };
+		211B6785252D0FC7007A0957 /* Los Angeles.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4002512C3F400B541CC /* Los Angeles.json */; };
+		211B6786252D0FC7007A0957 /* Chicago.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4042512C3F400B541CC /* Chicago.json */; };
+		211B6787252D0FC7007A0957 /* Charleston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4082512C3F500B541CC /* Charleston.json */; };
+		211B6788252D0FC7007A0957 /* San Francisco.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FF2512C3F400B541CC /* San Francisco.json */; };
+		211B6789252D0FC7007A0957 /* Miami.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FE2512C3F400B541CC /* Miami.json */; };
+		211B678A252D0FC7007A0957 /* New Orleans.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4062512C3F400B541CC /* New Orleans.json */; };
+		211B678B252D0FC7007A0957 /* San Antonio.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4092512C3F500B541CC /* San Antonio.json */; };
+		211B678C252D0FC7007A0957 /* Boston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FD2512C3F400B541CC /* Boston.json */; };
+		211B678D252D0FC7007A0957 /* Las Vegas.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4052512C3F400B541CC /* Las Vegas.json */; };
+		211B678E252D0FC7007A0957 /* Philadelphia.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4032512C3F400B541CC /* Philadelphia.json */; };
+		211B678F252D0FC7007A0957 /* New York.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FC2512C3F400B541CC /* New York.json */; };
+		211B6790252D0FC7007A0957 /* Portland.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4072512C3F500B541CC /* Portland.json */; };
+		211B6793252D0FC8007A0957 /* Houston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4012512C3F400B541CC /* Houston.json */; };
+		211B6794252D0FC8007A0957 /* Los Angeles.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4002512C3F400B541CC /* Los Angeles.json */; };
+		211B6795252D0FC8007A0957 /* Chicago.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4042512C3F400B541CC /* Chicago.json */; };
+		211B6796252D0FC8007A0957 /* Charleston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4082512C3F500B541CC /* Charleston.json */; };
+		211B6797252D0FC8007A0957 /* San Francisco.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FF2512C3F400B541CC /* San Francisco.json */; };
+		211B6798252D0FC8007A0957 /* Miami.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FE2512C3F400B541CC /* Miami.json */; };
+		211B6799252D0FC8007A0957 /* New Orleans.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4062512C3F400B541CC /* New Orleans.json */; };
+		211B679A252D0FC8007A0957 /* San Antonio.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4092512C3F500B541CC /* San Antonio.json */; };
+		211B679B252D0FC8007A0957 /* Boston.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FD2512C3F400B541CC /* Boston.json */; };
+		211B679C252D0FC8007A0957 /* Las Vegas.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4052512C3F400B541CC /* Las Vegas.json */; };
+		211B679D252D0FC8007A0957 /* Philadelphia.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4032512C3F400B541CC /* Philadelphia.json */; };
+		211B679E252D0FC8007A0957 /* New York.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D3FC2512C3F400B541CC /* New York.json */; };
+		211B679F252D0FC8007A0957 /* Portland.json in Resources */ = {isa = PBXBuildFile; fileRef = 2101D4072512C3F500B541CC /* Portland.json */; };
+		211B67A2252D0FDE007A0957 /* RestaurantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2101D3DE2511BE5900B541CC /* RestaurantItem.swift */; };
+		211B67A3252D0FDE007A0957 /* RestaurantDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198FC78251D9C97000E5A96 /* RestaurantDataManager.swift */; };
+		211B67A4252D0FDE007A0957 /* RestaurantAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B677A252D0F71007A0957 /* RestaurantAPIManager.swift */; };
+		211B67C1252D1720007A0957 /* RestaurantMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B67C0252D1720007A0957 /* RestaurantMessageCell.swift */; };
+		211B67C8252D2B75007A0957 /* sample-restaurant-img.png in Resources */ = {isa = PBXBuildFile; fileRef = 211B67C5252D2B75007A0957 /* sample-restaurant-img.png */; };
+		211B67C9252D2B75007A0957 /* sample-restaurant-img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211B67C6252D2B75007A0957 /* sample-restaurant-img@2x.png */; };
+		211B67CA252D2B75007A0957 /* sample-restaurant-img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211B67C7252D2B75007A0957 /* sample-restaurant-img@3x.png */; };
+		211B67CE252D2E00007A0957 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B67CD252D2E00007A0957 /* Identifier.swift */; };
+		211B680D252D7A95007A0957 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B67D6252D79F5007A0957 /* UserNotifications.framework */; };
+		211B680E252D7A95007A0957 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B67D8252D79F5007A0957 /* UserNotificationsUI.framework */; };
+		211B6811252D7A95007A0957 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B6810252D7A95007A0957 /* NotificationViewController.swift */; };
+		211B6814252D7A95007A0957 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211B6812252D7A95007A0957 /* MainInterface.storyboard */; };
+		211B6818252D7A95007A0957 /* LetsEatNotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 211B680C252D7A95007A0957 /* LetsEatNotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		211B6822252D7D46007A0957 /* NotificationSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B6820252D7D46007A0957 /* NotificationSettingsViewController.swift */; };
+		211B6823252D7D46007A0957 /* NotificationSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211B6821252D7D46007A0957 /* NotificationSettings.storyboard */; };
+		211B682E252E37A9007A0957 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B682D252E37A9007A0957 /* IntentHandler.swift */; };
+		211B6836252E37A9007A0957 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211B6835252E37A9007A0957 /* IntentsUI.framework */; };
+		211B6839252E37A9007A0957 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B6838252E37A9007A0957 /* IntentViewController.swift */; };
+		211B683C252E37A9007A0957 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211B683A252E37A9007A0957 /* MainInterface.storyboard */; };
+		211B6840252E37A9007A0957 /* MakePaymentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 211B6834252E37A9007A0957 /* MakePaymentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		211B6843252E37A9007A0957 /* MakePayment.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 211B682B252E37A9007A0957 /* MakePayment.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		211B6850252E3AE0007A0957 /* RestaurantContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B684F252E3AE0007A0957 /* RestaurantContact.swift */; };
+		211B6856252E3C40007A0957 /* RestaurantContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B684F252E3AE0007A0957 /* RestaurantContact.swift */; };
+		213B883F252BA0D3000ABCA7 /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B883E252BA0D3000ABCA7 /* ReviewsViewController.swift */; };
+		213B8847252BA69B000ABCA7 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B8846252BA69B000ABCA7 /* ReviewCell.swift */; };
+		213B884B252BB799000ABCA7 /* PhotoReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B884A252BB799000ABCA7 /* PhotoReviewViewController.swift */; };
+		213B884E252BBA8A000ABCA7 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B884D252BBA8A000ABCA7 /* PhotoCell.swift */; };
+		2198FC68251D52A1000E5A96 /* Restaurants.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2198FC67251D52A1000E5A96 /* Restaurants.storyboard */; };
+		2198FC6F251D53D9000E5A96 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2198FC6E251D53D9000E5A96 /* Map.storyboard */; };
+		2198FC74251D944D000E5A96 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198FC73251D944D000E5A96 /* RestaurantCell.swift */; };
+		2198FC7E251DA670000E5A96 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198FC7D251DA670000E5A96 /* NoDataView.swift */; };
+		2198FC86251DADBC000E5A96 /* NoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2198FC85251DADBC000E5A96 /* NoDataView.xib */; };
+		21F5CE252523EAA800E75A96 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F5CE242523EAA800E75A96 /* FilterCell.swift */; };
+		21F5CE282523EBD400E75A96 /* PhotoFilter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F5CE272523EBD400E75A96 /* PhotoFilter.storyboard */; };
+		21F5CE2B2523ED4500E75A96 /* PhotoFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F5CE2A2523ED4500E75A96 /* PhotoFilterViewController.swift */; };
+		21F5CE372526938000E75A96 /* LetsEatModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21F5CE352526938000E75A96 /* LetsEatModel.xcdatamodeld */; };
+		21F5CE3A2526966900E75A96 /* ReviewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F5CE392526966900E75A96 /* ReviewItem.swift */; };
+		21F5CE3E2526984F00E75A96 /* RestaurantPhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F5CE3D2526984F00E75A96 /* RestaurantPhotoItem.swift */; };
+		21F5CE4225269CD700E75A96 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F5CE4125269CD700E75A96 /* CoreDataManager.swift */; };
+		21F5CE462526B0E700E75A96 /* ReviewDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F5CE452526B0E700E75A96 /* ReviewDataManager.swift */; };
+		21F979DB25227BAA007ABE2B /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979D525227BAA007ABE2B /* LocationViewController.swift */; };
+		21F979DD25227BAA007ABE2B /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979D825227BAA007ABE2B /* LocationDataManager.swift */; };
+		21F979DE25227BAA007ABE2B /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21F979D925227BAA007ABE2B /* Locations.plist */; };
+		21F979DF25227BAA007ABE2B /* LocationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979DA25227BAA007ABE2B /* LocationItem.swift */; };
+		21F979EC25227BCE007ABE2B /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979E325227BCE007ABE2B /* ExploreViewController.swift */; };
+		21F979ED25227BCE007ABE2B /* ExploreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979E525227BCE007ABE2B /* ExploreItem.swift */; };
+		21F979EE25227BCE007ABE2B /* ExploreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979E625227BCE007ABE2B /* ExploreDataManager.swift */; };
+		21F979EF25227BCE007ABE2B /* ExploreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21F979E725227BCE007ABE2B /* ExploreData.plist */; };
+		21F979F025227BCE007ABE2B /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979E925227BCE007ABE2B /* ExploreCell.swift */; };
+		21F979F125227BCE007ABE2B /* ExploreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979EA25227BCE007ABE2B /* ExploreHeaderView.swift */; };
+		21F979F92522BCB4007ABE2B /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F979F82522BCB4007ABE2B /* RatingsView.swift */; };
+		21F979FD2522C6DA007ABE2B /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F979FC2522C6DA007ABE2B /* Explore.storyboard */; };
+		21F97A012522C729007ABE2B /* Locations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F97A002522C729007ABE2B /* Locations.storyboard */; };
+		21F97A052522D129007ABE2B /* ReviewForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F97A042522D129007ABE2B /* ReviewForm.storyboard */; };
+		21F97A0C2522D63A007ABE2B /* ReviewFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F97A0B2522D63A007ABE2B /* ReviewFormViewController.swift */; };
+		21F97A10252395CA007ABE2B /* FilterData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21F97A0F252395CA007ABE2B /* FilterData.plist */; };
+		21F97A14252396E5007ABE2B /* FilterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F97A13252396E5007ABE2B /* FilterItem.swift */; };
+		21F97A18252397D9007ABE2B /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F97A17252397D9007ABE2B /* FilterManager.swift */; };
+		21F97A1B252398B5007ABE2B /* ImageFiltering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F97A1A252398B5007ABE2B /* ImageFiltering.swift */; };
+		21F97A1E25239AC6007ABE2B /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F97A1D25239AC5007ABE2B /* PhotoItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		211B674C252D0D80007A0957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217C55AC250427720039E429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211B673E252D0D7E007A0957;
+			remoteInfo = MessageApp;
+		};
+		211B676B252D0EAF007A0957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217C55AC250427720039E429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211B6765252D0EAF007A0957;
+			remoteInfo = LetsEatDataKit;
+		};
+		211B6816252D7A95007A0957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217C55AC250427720039E429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211B680B252D7A95007A0957;
+			remoteInfo = LetsEatNotificationExtension;
+		};
+		211B683E252E37A9007A0957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217C55AC250427720039E429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211B6833252E37A9007A0957;
+			remoteInfo = MakePaymentUI;
+		};
+		211B6841252E37A9007A0957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217C55AC250427720039E429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211B682A252E37A9007A0957;
+			remoteInfo = MakePayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		211B6752252D0D80007A0957 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				211B6818252D7A95007A0957 /* LetsEatNotificationExtension.appex in Embed App Extensions */,
+				211B6843252E37A9007A0957 /* MakePayment.appex in Embed App Extensions */,
+				211B6840252E37A9007A0957 /* MakePaymentUI.appex in Embed App Extensions */,
+				211B674E252D0D80007A0957 /* MessageApp.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		211B6772252D0EAF007A0957 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				211B676E252D0EAF007A0957 /* LetsEatDataKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2101D3BD2511BE5900B541CC /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2101D3BE2511BE5900B541CC /* Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
+		2101D3C12511BE5900B541CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2101D3C32511BE5900B541CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2101D3C52511BE5900B541CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2101D3C62511BE5900B541CC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2101D3C92511BE5900B541CC /* RestaurantDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RestaurantDetail.storyboard; sourceTree = "<group>"; };
+		2101D3CA2511BE5900B541CC /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		2101D3CC2511BE5900B541CC /* RestaurantListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		2101D3DB2511BE5900B541CC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2101D3DD2511BE5900B541CC /* MapLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapLocations.plist; sourceTree = "<group>"; };
+		2101D3DE2511BE5900B541CC /* RestaurantItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantItem.swift; sourceTree = "<group>"; };
+		2101D3DF2511BE5900B541CC /* MapDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDataManager.swift; sourceTree = "<group>"; };
+		2101D3E22511BE5900B541CC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2101D3FC2512C3F400B541CC /* New York.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "New York.json"; sourceTree = "<group>"; };
+		2101D3FD2512C3F400B541CC /* Boston.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boston.json; sourceTree = "<group>"; };
+		2101D3FE2512C3F400B541CC /* Miami.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Miami.json; sourceTree = "<group>"; };
+		2101D3FF2512C3F400B541CC /* San Francisco.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "San Francisco.json"; sourceTree = "<group>"; };
+		2101D4002512C3F400B541CC /* Los Angeles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Los Angeles.json"; sourceTree = "<group>"; };
+		2101D4012512C3F400B541CC /* Houston.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Houston.json; sourceTree = "<group>"; };
+		2101D4022512C3F400B541CC /* Aspen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Aspen.json; sourceTree = "<group>"; };
+		2101D4032512C3F400B541CC /* Philadelphia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Philadelphia.json; sourceTree = "<group>"; };
+		2101D4042512C3F400B541CC /* Chicago.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Chicago.json; sourceTree = "<group>"; };
+		2101D4052512C3F400B541CC /* Las Vegas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Las Vegas.json"; sourceTree = "<group>"; };
+		2101D4062512C3F400B541CC /* New Orleans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "New Orleans.json"; sourceTree = "<group>"; };
+		2101D4072512C3F500B541CC /* Portland.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Portland.json; sourceTree = "<group>"; };
+		2101D4082512C3F500B541CC /* Charleston.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Charleston.json; sourceTree = "<group>"; };
+		2101D4092512C3F500B541CC /* San Antonio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "San Antonio.json"; sourceTree = "<group>"; };
+		211B6738252CFBBD007A0957 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		211B673F252D0D7E007A0957 /* MessageApp.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessageApp.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B6741252D0D7E007A0957 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		211B6744252D0D7E007A0957 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		211B674B252D0D80007A0957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211B6757252D0DCA007A0957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		211B675D252D0E36007A0957 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		211B6766252D0EAF007A0957 /* LetsEatDataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LetsEatDataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B6768252D0EAF007A0957 /* LetsEatDataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetsEatDataKit.h; sourceTree = "<group>"; };
+		211B6769252D0EAF007A0957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211B677A252D0F71007A0957 /* RestaurantAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantAPIManager.swift; sourceTree = "<group>"; };
+		211B67C0252D1720007A0957 /* RestaurantMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMessageCell.swift; sourceTree = "<group>"; };
+		211B67C5252D2B75007A0957 /* sample-restaurant-img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-restaurant-img.png"; sourceTree = "<group>"; };
+		211B67C6252D2B75007A0957 /* sample-restaurant-img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-restaurant-img@2x.png"; sourceTree = "<group>"; };
+		211B67C7252D2B75007A0957 /* sample-restaurant-img@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-restaurant-img@3x.png"; sourceTree = "<group>"; };
+		211B67CD252D2E00007A0957 /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		211B67D6252D79F5007A0957 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		211B67D8252D79F5007A0957 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		211B680C252D7A95007A0957 /* LetsEatNotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LetsEatNotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B6810252D7A95007A0957 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		211B6813252D7A95007A0957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		211B6815252D7A95007A0957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211B6820252D7D46007A0957 /* NotificationSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSettingsViewController.swift; sourceTree = "<group>"; };
+		211B6821252D7D46007A0957 /* NotificationSettings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NotificationSettings.storyboard; sourceTree = "<group>"; };
+		211B682B252E37A9007A0957 /* MakePayment.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MakePayment.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B682D252E37A9007A0957 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		211B682F252E37A9007A0957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211B6834252E37A9007A0957 /* MakePaymentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MakePaymentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B6835252E37A9007A0957 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		211B6838252E37A9007A0957 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		211B683B252E37A9007A0957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		211B683D252E37A9007A0957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211B684F252E3AE0007A0957 /* RestaurantContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantContact.swift; sourceTree = "<group>"; };
+		211B6861252E4572007A0957 /* LetsEat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LetsEat.entitlements; sourceTree = "<group>"; };
+		213B883E252BA0D3000ABCA7 /* ReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
+		213B8846252BA69B000ABCA7 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		213B884A252BB799000ABCA7 /* PhotoReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoReviewViewController.swift; sourceTree = "<group>"; };
+		213B884D252BBA8A000ABCA7 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		21459F2E250B20BE00BAFCA8 /* FunctionsStructs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionsStructs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		21459F2F250B264800BAFCA8 /* CollectionViewBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionViewBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		217C55B4250427720039E429 /* LetsEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2198FC67251D52A1000E5A96 /* Restaurants.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Restaurants.storyboard; sourceTree = "<group>"; };
+		2198FC6E251D53D9000E5A96 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		2198FC73251D944D000E5A96 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		2198FC78251D9C97000E5A96 /* RestaurantDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDataManager.swift; sourceTree = "<group>"; };
+		2198FC7D251DA670000E5A96 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		2198FC85251DADBC000E5A96 /* NoDataView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoDataView.xib; sourceTree = "<group>"; };
+		21A728DD250EC47000D1B354 /* TableViewBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TableViewBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		21F5CE242523EAA800E75A96 /* FilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		21F5CE272523EBD400E75A96 /* PhotoFilter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoFilter.storyboard; sourceTree = "<group>"; };
+		21F5CE2A2523ED4500E75A96 /* PhotoFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFilterViewController.swift; sourceTree = "<group>"; };
+		21F5CE362526938000E75A96 /* LetsEatModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LetsEatModel.xcdatamodel; sourceTree = "<group>"; };
+		21F5CE392526966900E75A96 /* ReviewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewItem.swift; sourceTree = "<group>"; };
+		21F5CE3D2526984F00E75A96 /* RestaurantPhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPhotoItem.swift; sourceTree = "<group>"; };
+		21F5CE4125269CD700E75A96 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		21F5CE452526B0E700E75A96 /* ReviewDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDataManager.swift; sourceTree = "<group>"; };
+		21F979D525227BAA007ABE2B /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		21F979D825227BAA007ABE2B /* LocationDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
+		21F979D925227BAA007ABE2B /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
+		21F979DA25227BAA007ABE2B /* LocationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationItem.swift; sourceTree = "<group>"; };
+		21F979E325227BCE007ABE2B /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		21F979E525227BCE007ABE2B /* ExploreItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreItem.swift; sourceTree = "<group>"; };
+		21F979E625227BCE007ABE2B /* ExploreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreDataManager.swift; sourceTree = "<group>"; };
+		21F979E725227BCE007ABE2B /* ExploreData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExploreData.plist; sourceTree = "<group>"; };
+		21F979E925227BCE007ABE2B /* ExploreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
+		21F979EA25227BCE007ABE2B /* ExploreHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreHeaderView.swift; sourceTree = "<group>"; };
+		21F979F82522BCB4007ABE2B /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		21F979FC2522C6DA007ABE2B /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
+		21F97A002522C729007ABE2B /* Locations.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Locations.storyboard; sourceTree = "<group>"; };
+		21F97A042522D129007ABE2B /* ReviewForm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReviewForm.storyboard; sourceTree = "<group>"; };
+		21F97A0B2522D63A007ABE2B /* ReviewFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewFormViewController.swift; sourceTree = "<group>"; };
+		21F97A0F252395CA007ABE2B /* FilterData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FilterData.plist; sourceTree = "<group>"; };
+		21F97A13252396E5007ABE2B /* FilterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterItem.swift; sourceTree = "<group>"; };
+		21F97A17252397D9007ABE2B /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+		21F97A1A252398B5007ABE2B /* ImageFiltering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFiltering.swift; sourceTree = "<group>"; };
+		21F97A1D25239AC5007ABE2B /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211B673C252D0D7E007A0957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B6742252D0D7E007A0957 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6763252D0EAF007A0957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6809252D7A95007A0957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B680E252D7A95007A0957 /* UserNotificationsUI.framework in Frameworks */,
+				211B680D252D7A95007A0957 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6828252E37A9007A0957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6831252E37A9007A0957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B6836252E37A9007A0957 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C55B1250427720039E429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B676D252D0EAF007A0957 /* LetsEatDataKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2101D3BB2511BE5900B541CC /* LetsEat */ = {
+			isa = PBXGroup;
+			children = (
+				211B6861252E4572007A0957 /* LetsEat.entitlements */,
+				2101D3BC2511BE5900B541CC /* Misc */,
+				2101D3BF2511BE5900B541CC /* Base.iProj */,
+				2101D3C42511BE5900B541CC /* Application */,
+				2101D3C72511BE5900B541CC /* Controllers */,
+				2101D3E22511BE5900B541CC /* SceneDelegate.swift */,
+			);
+			path = LetsEat;
+			sourceTree = "<group>";
+		};
+		2101D3BC2511BE5900B541CC /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				211B67C4252D2B30007A0957 /* Images */,
+				21F5CE342526931A00E75A96 /* Core Data */,
+				2198FC7C251DA62F000E5A96 /* No Data */,
+				2101D3BD2511BE5900B541CC /* DataManager.swift */,
+				2101D3BE2511BE5900B541CC /* Segue.swift */,
+				21F5CE452526B0E700E75A96 /* ReviewDataManager.swift */,
+				211B6738252CFBBD007A0957 /* Device.swift */,
+				211B67CD252D2E00007A0957 /* Identifier.swift */,
+				211B684F252E3AE0007A0957 /* RestaurantContact.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		2101D3BF2511BE5900B541CC /* Base.iProj */ = {
+			isa = PBXGroup;
+			children = (
+				2101D3C02511BE5900B541CC /* LaunchScreen.storyboard */,
+				2101D3C22511BE5900B541CC /* Main.storyboard */,
+			);
+			path = Base.iProj;
+			sourceTree = "<group>";
+		};
+		2101D3C42511BE5900B541CC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2101D3C52511BE5900B541CC /* Assets.xcassets */,
+				2101D3C62511BE5900B541CC /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2101D3C72511BE5900B541CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				211B681F252D7D46007A0957 /* Settings */,
+				213B883D252BA0AB000ABCA7 /* Reviews */,
+				21F5CE3C2526982D00E75A96 /* Photo Reviews */,
+				21F97A0E252395AF007ABE2B /* Photo Filter */,
+				21F979F72522BC81007ABE2B /* Review Form */,
+				21F979E225227BCE007ABE2B /* Explore */,
+				21F979D425227BAA007ABE2B /* Location */,
+				2101D3C82511BE5900B541CC /* Restaurant Details */,
+				2101D3CB2511BE5900B541CC /* Restaurants */,
+				2101D3DA2511BE5900B541CC /* Map */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2101D3C82511BE5900B541CC /* Restaurant Details */ = {
+			isa = PBXGroup;
+			children = (
+				2101D3C92511BE5900B541CC /* RestaurantDetail.storyboard */,
+				2101D3CA2511BE5900B541CC /* RestaurantDetailViewController.swift */,
+			);
+			path = "Restaurant Details";
+			sourceTree = "<group>";
+		};
+		2101D3CB2511BE5900B541CC /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				2198FC77251D9C7A000E5A96 /* Model */,
+				2198FC72251D93C6000E5A96 /* View */,
+				2101D3CC2511BE5900B541CC /* RestaurantListViewController.swift */,
+				2198FC67251D52A1000E5A96 /* Restaurants.storyboard */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		2101D3DA2511BE5900B541CC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2101D3DB2511BE5900B541CC /* MapViewController.swift */,
+				2198FC6E251D53D9000E5A96 /* Map.storyboard */,
+				2101D3DC2511BE5900B541CC /* Model */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2101D3DC2511BE5900B541CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2101D3DD2511BE5900B541CC /* MapLocations.plist */,
+				2101D3DF2511BE5900B541CC /* MapDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2101D3FB2512C3B800B541CC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2101D4022512C3F400B541CC /* Aspen.json */,
+				2101D3FD2512C3F400B541CC /* Boston.json */,
+				2101D4082512C3F500B541CC /* Charleston.json */,
+				2101D4042512C3F400B541CC /* Chicago.json */,
+				2101D4012512C3F400B541CC /* Houston.json */,
+				2101D4052512C3F400B541CC /* Las Vegas.json */,
+				2101D4002512C3F400B541CC /* Los Angeles.json */,
+				2101D3FE2512C3F400B541CC /* Miami.json */,
+				2101D4062512C3F400B541CC /* New Orleans.json */,
+				2101D3FC2512C3F400B541CC /* New York.json */,
+				2101D4032512C3F400B541CC /* Philadelphia.json */,
+				2101D4072512C3F500B541CC /* Portland.json */,
+				2101D4092512C3F500B541CC /* San Antonio.json */,
+				2101D3FF2512C3F400B541CC /* San Francisco.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		211B6740252D0D7E007A0957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				211B6741252D0D7E007A0957 /* Messages.framework */,
+				211B67D6252D79F5007A0957 /* UserNotifications.framework */,
+				211B67D8252D79F5007A0957 /* UserNotificationsUI.framework */,
+				211B6835252E37A9007A0957 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		211B6743252D0D7E007A0957 /* MessageApp */ = {
+			isa = PBXGroup;
+			children = (
+				211B6757252D0DCA007A0957 /* Assets.xcassets */,
+				211B675D252D0E36007A0957 /* MainInterface.storyboard */,
+				211B6744252D0D7E007A0957 /* MessagesViewController.swift */,
+				211B674B252D0D80007A0957 /* Info.plist */,
+				211B67C0252D1720007A0957 /* RestaurantMessageCell.swift */,
+			);
+			path = MessageApp;
+			sourceTree = "<group>";
+		};
+		211B6767252D0EAF007A0957 /* LetsEatDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				211B6775252D0F05007A0957 /* Restaurant */,
+				211B6768252D0EAF007A0957 /* LetsEatDataKit.h */,
+				211B6769252D0EAF007A0957 /* Info.plist */,
+			);
+			path = LetsEatDataKit;
+			sourceTree = "<group>";
+		};
+		211B6775252D0F05007A0957 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				2101D3FB2512C3B800B541CC /* JSON */,
+				211B677A252D0F71007A0957 /* RestaurantAPIManager.swift */,
+				2101D3DE2511BE5900B541CC /* RestaurantItem.swift */,
+				2198FC78251D9C97000E5A96 /* RestaurantDataManager.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		211B67C4252D2B30007A0957 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				211B67C5252D2B75007A0957 /* sample-restaurant-img.png */,
+				211B67C6252D2B75007A0957 /* sample-restaurant-img@2x.png */,
+				211B67C7252D2B75007A0957 /* sample-restaurant-img@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		211B680F252D7A95007A0957 /* LetsEatNotificationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				211B6810252D7A95007A0957 /* NotificationViewController.swift */,
+				211B6812252D7A95007A0957 /* MainInterface.storyboard */,
+				211B6815252D7A95007A0957 /* Info.plist */,
+			);
+			path = LetsEatNotificationExtension;
+			sourceTree = "<group>";
+		};
+		211B681F252D7D46007A0957 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				211B6820252D7D46007A0957 /* NotificationSettingsViewController.swift */,
+				211B6821252D7D46007A0957 /* NotificationSettings.storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		211B682C252E37A9007A0957 /* MakePayment */ = {
+			isa = PBXGroup;
+			children = (
+				211B682D252E37A9007A0957 /* IntentHandler.swift */,
+				211B682F252E37A9007A0957 /* Info.plist */,
+			);
+			path = MakePayment;
+			sourceTree = "<group>";
+		};
+		211B6837252E37A9007A0957 /* MakePaymentUI */ = {
+			isa = PBXGroup;
+			children = (
+				211B6838252E37A9007A0957 /* IntentViewController.swift */,
+				211B683A252E37A9007A0957 /* MainInterface.storyboard */,
+				211B683D252E37A9007A0957 /* Info.plist */,
+			);
+			path = MakePaymentUI;
+			sourceTree = "<group>";
+		};
+		213B883D252BA0AB000ABCA7 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				213B883E252BA0D3000ABCA7 /* ReviewsViewController.swift */,
+				213B8846252BA69B000ABCA7 /* ReviewCell.swift */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		21459F2D250B1FCA00BAFCA8 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				21459F2E250B20BE00BAFCA8 /* FunctionsStructs.playground */,
+				21459F2F250B264800BAFCA8 /* CollectionViewBasics.playground */,
+				21A728DD250EC47000D1B354 /* TableViewBasics.playground */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		217C55AB250427720039E429 = {
+			isa = PBXGroup;
+			children = (
+				2101D3BB2511BE5900B541CC /* LetsEat */,
+				21459F2D250B1FCA00BAFCA8 /* Playground */,
+				211B6743252D0D7E007A0957 /* MessageApp */,
+				211B6767252D0EAF007A0957 /* LetsEatDataKit */,
+				211B680F252D7A95007A0957 /* LetsEatNotificationExtension */,
+				211B682C252E37A9007A0957 /* MakePayment */,
+				211B6837252E37A9007A0957 /* MakePaymentUI */,
+				211B6740252D0D7E007A0957 /* Frameworks */,
+				217C55B5250427720039E429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		217C55B5250427720039E429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217C55B4250427720039E429 /* LetsEat.app */,
+				211B673F252D0D7E007A0957 /* MessageApp.appex */,
+				211B6766252D0EAF007A0957 /* LetsEatDataKit.framework */,
+				211B680C252D7A95007A0957 /* LetsEatNotificationExtension.appex */,
+				211B682B252E37A9007A0957 /* MakePayment.appex */,
+				211B6834252E37A9007A0957 /* MakePaymentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2198FC72251D93C6000E5A96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2198FC73251D944D000E5A96 /* RestaurantCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2198FC77251D9C7A000E5A96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2198FC7C251DA62F000E5A96 /* No Data */ = {
+			isa = PBXGroup;
+			children = (
+				2198FC7D251DA670000E5A96 /* NoDataView.swift */,
+				2198FC85251DADBC000E5A96 /* NoDataView.xib */,
+			);
+			path = "No Data";
+			sourceTree = "<group>";
+		};
+		21F5CE342526931A00E75A96 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				21F5CE352526938000E75A96 /* LetsEatModel.xcdatamodeld */,
+				21F5CE4125269CD700E75A96 /* CoreDataManager.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		21F5CE3C2526982D00E75A96 /* Photo Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				21F5CE3D2526984F00E75A96 /* RestaurantPhotoItem.swift */,
+				213B884A252BB799000ABCA7 /* PhotoReviewViewController.swift */,
+				213B884D252BBA8A000ABCA7 /* PhotoCell.swift */,
+			);
+			path = "Photo Reviews";
+			sourceTree = "<group>";
+		};
+		21F979D425227BAA007ABE2B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				21F97A002522C729007ABE2B /* Locations.storyboard */,
+				21F979D525227BAA007ABE2B /* LocationViewController.swift */,
+				21F979D725227BAA007ABE2B /* Model */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		21F979D725227BAA007ABE2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21F979D825227BAA007ABE2B /* LocationDataManager.swift */,
+				21F979D925227BAA007ABE2B /* Locations.plist */,
+				21F979DA25227BAA007ABE2B /* LocationItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21F979E225227BCE007ABE2B /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				21F979FC2522C6DA007ABE2B /* Explore.storyboard */,
+				21F979E325227BCE007ABE2B /* ExploreViewController.swift */,
+				21F979E425227BCE007ABE2B /* Model */,
+				21F979E825227BCE007ABE2B /* View */,
+			);
+			name = Explore;
+			path = "../../../../../iOS-12-Programming-for-Beginners-Third-Edition-master/Chapter16/completed/LetsEat/LetsEat/Controllers/Explore";
+			sourceTree = "<group>";
+		};
+		21F979E425227BCE007ABE2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21F979E525227BCE007ABE2B /* ExploreItem.swift */,
+				21F979E625227BCE007ABE2B /* ExploreDataManager.swift */,
+				21F979E725227BCE007ABE2B /* ExploreData.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21F979E825227BCE007ABE2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21F979E925227BCE007ABE2B /* ExploreCell.swift */,
+				21F979EA25227BCE007ABE2B /* ExploreHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21F979F72522BC81007ABE2B /* Review Form */ = {
+			isa = PBXGroup;
+			children = (
+				21F97A12252396B6007ABE2B /* Model */,
+				21F979F82522BCB4007ABE2B /* RatingsView.swift */,
+				21F97A042522D129007ABE2B /* ReviewForm.storyboard */,
+				21F97A0B2522D63A007ABE2B /* ReviewFormViewController.swift */,
+			);
+			path = "Review Form";
+			sourceTree = "<group>";
+		};
+		21F97A0E252395AF007ABE2B /* Photo Filter */ = {
+			isa = PBXGroup;
+			children = (
+				21F97A0F252395CA007ABE2B /* FilterData.plist */,
+				21F5CE272523EBD400E75A96 /* PhotoFilter.storyboard */,
+				21F97A17252397D9007ABE2B /* FilterManager.swift */,
+				21F97A1A252398B5007ABE2B /* ImageFiltering.swift */,
+				21F5CE242523EAA800E75A96 /* FilterCell.swift */,
+				21F5CE2A2523ED4500E75A96 /* PhotoFilterViewController.swift */,
+			);
+			path = "Photo Filter";
+			sourceTree = "<group>";
+		};
+		21F97A12252396B6007ABE2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21F97A13252396E5007ABE2B /* FilterItem.swift */,
+				21F97A1D25239AC5007ABE2B /* PhotoItem.swift */,
+				21F5CE392526966900E75A96 /* ReviewItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		211B6761252D0EAF007A0957 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B676A252D0EAF007A0957 /* LetsEatDataKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		211B673E252D0D7E007A0957 /* MessageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B674F252D0D80007A0957 /* Build configuration list for PBXNativeTarget "MessageApp" */;
+			buildPhases = (
+				211B673B252D0D7E007A0957 /* Sources */,
+				211B673C252D0D7E007A0957 /* Frameworks */,
+				211B673D252D0D7E007A0957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessageApp;
+			productName = MessageApp;
+			productReference = 211B673F252D0D7E007A0957 /* MessageApp.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		211B6765252D0EAF007A0957 /* LetsEatDataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B676F252D0EAF007A0957 /* Build configuration list for PBXNativeTarget "LetsEatDataKit" */;
+			buildPhases = (
+				211B6761252D0EAF007A0957 /* Headers */,
+				211B6762252D0EAF007A0957 /* Sources */,
+				211B6763252D0EAF007A0957 /* Frameworks */,
+				211B6764252D0EAF007A0957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsEatDataKit;
+			productName = LetsEatDataKit;
+			productReference = 211B6766252D0EAF007A0957 /* LetsEatDataKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		211B680B252D7A95007A0957 /* LetsEatNotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B6819252D7A95007A0957 /* Build configuration list for PBXNativeTarget "LetsEatNotificationExtension" */;
+			buildPhases = (
+				211B6808252D7A95007A0957 /* Sources */,
+				211B6809252D7A95007A0957 /* Frameworks */,
+				211B680A252D7A95007A0957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsEatNotificationExtension;
+			productName = LetsEatNotificationExtension;
+			productReference = 211B680C252D7A95007A0957 /* LetsEatNotificationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		211B682A252E37A9007A0957 /* MakePayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B6847252E37A9007A0957 /* Build configuration list for PBXNativeTarget "MakePayment" */;
+			buildPhases = (
+				211B6827252E37A9007A0957 /* Sources */,
+				211B6828252E37A9007A0957 /* Frameworks */,
+				211B6829252E37A9007A0957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakePayment;
+			productName = MakePayment;
+			productReference = 211B682B252E37A9007A0957 /* MakePayment.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		211B6833252E37A9007A0957 /* MakePaymentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B6844252E37A9007A0957 /* Build configuration list for PBXNativeTarget "MakePaymentUI" */;
+			buildPhases = (
+				211B6830252E37A9007A0957 /* Sources */,
+				211B6831252E37A9007A0957 /* Frameworks */,
+				211B6832252E37A9007A0957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakePaymentUI;
+			productName = MakePaymentUI;
+			productReference = 211B6834252E37A9007A0957 /* MakePaymentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		217C55B3250427720039E429 /* LetsEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217C55C8250427740039E429 /* Build configuration list for PBXNativeTarget "LetsEat" */;
+			buildPhases = (
+				217C55B0250427720039E429 /* Sources */,
+				217C55B1250427720039E429 /* Frameworks */,
+				217C55B2250427720039E429 /* Resources */,
+				211B6752252D0D80007A0957 /* Embed App Extensions */,
+				211B6772252D0EAF007A0957 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211B674D252D0D80007A0957 /* PBXTargetDependency */,
+				211B676C252D0EAF007A0957 /* PBXTargetDependency */,
+				211B6817252D7A95007A0957 /* PBXTargetDependency */,
+				211B683F252E37A9007A0957 /* PBXTargetDependency */,
+				211B6842252E37A9007A0957 /* PBXTargetDependency */,
+			);
+			name = LetsEat;
+			productName = LetsEat;
+			productReference = 217C55B4250427720039E429 /* LetsEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217C55AC250427720039E429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Euclidean Software LLC";
+				TargetAttributes = {
+					211B673E252D0D7E007A0957 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					211B6765252D0EAF007A0957 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					211B680B252D7A95007A0957 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					211B682A252E37A9007A0957 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					211B6833252E37A9007A0957 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					217C55B3250427720039E429 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 217C55AF250427720039E429 /* Build configuration list for PBXProject "LetsEat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217C55AB250427720039E429;
+			productRefGroup = 217C55B5250427720039E429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217C55B3250427720039E429 /* LetsEat */,
+				211B673E252D0D7E007A0957 /* MessageApp */,
+				211B6765252D0EAF007A0957 /* LetsEatDataKit */,
+				211B680B252D7A95007A0957 /* LetsEatNotificationExtension */,
+				211B682A252E37A9007A0957 /* MakePayment */,
+				211B6833252E37A9007A0957 /* MakePaymentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		211B673D252D0D7E007A0957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B678C252D0FC7007A0957 /* Boston.json in Resources */,
+				211B6784252D0FC7007A0957 /* Houston.json in Resources */,
+				211B678D252D0FC7007A0957 /* Las Vegas.json in Resources */,
+				211B6789252D0FC7007A0957 /* Miami.json in Resources */,
+				211B6785252D0FC7007A0957 /* Los Angeles.json in Resources */,
+				211B6786252D0FC7007A0957 /* Chicago.json in Resources */,
+				211B6758252D0DCA007A0957 /* Assets.xcassets in Resources */,
+				211B6788252D0FC7007A0957 /* San Francisco.json in Resources */,
+				211B678E252D0FC7007A0957 /* Philadelphia.json in Resources */,
+				211B6790252D0FC7007A0957 /* Portland.json in Resources */,
+				211B678F252D0FC7007A0957 /* New York.json in Resources */,
+				211B678B252D0FC7007A0957 /* San Antonio.json in Resources */,
+				211B678A252D0FC7007A0957 /* New Orleans.json in Resources */,
+				211B677E252D0FB2007A0957 /* Aspen.json in Resources */,
+				211B6787252D0FC7007A0957 /* Charleston.json in Resources */,
+				211B675E252D0E37007A0957 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6764252D0EAF007A0957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B6796252D0FC8007A0957 /* Charleston.json in Resources */,
+				211B679A252D0FC8007A0957 /* San Antonio.json in Resources */,
+				211B679C252D0FC8007A0957 /* Las Vegas.json in Resources */,
+				211B679F252D0FC8007A0957 /* Portland.json in Resources */,
+				211B6794252D0FC8007A0957 /* Los Angeles.json in Resources */,
+				211B6798252D0FC8007A0957 /* Miami.json in Resources */,
+				211B6797252D0FC8007A0957 /* San Francisco.json in Resources */,
+				211B6793252D0FC8007A0957 /* Houston.json in Resources */,
+				211B679B252D0FC8007A0957 /* Boston.json in Resources */,
+				211B6795252D0FC8007A0957 /* Chicago.json in Resources */,
+				211B6799252D0FC8007A0957 /* New Orleans.json in Resources */,
+				211B679D252D0FC8007A0957 /* Philadelphia.json in Resources */,
+				211B679E252D0FC8007A0957 /* New York.json in Resources */,
+				211B6781252D0FB3007A0957 /* Aspen.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B680A252D7A95007A0957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B6814252D7A95007A0957 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6829252E37A9007A0957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6832252E37A9007A0957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B683C252E37A9007A0957 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C55B2250427720039E429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2101D40B2512C3F500B541CC /* Boston.json in Resources */,
+				2101D3E92511BE5900B541CC /* RestaurantDetail.storyboard in Resources */,
+				2101D4122512C3F500B541CC /* Chicago.json in Resources */,
+				2198FC86251DADBC000E5A96 /* NoDataView.xib in Resources */,
+				2198FC68251D52A1000E5A96 /* Restaurants.storyboard in Resources */,
+				2101D3F52511BE5A00B541CC /* MapLocations.plist in Resources */,
+				2101D4112512C3F500B541CC /* Philadelphia.json in Resources */,
+				2101D3E62511BE5900B541CC /* Main.storyboard in Resources */,
+				21F979DE25227BAA007ABE2B /* Locations.plist in Resources */,
+				21F97A012522C729007ABE2B /* Locations.storyboard in Resources */,
+				2101D40A2512C3F500B541CC /* New York.json in Resources */,
+				2101D40F2512C3F500B541CC /* Houston.json in Resources */,
+				2101D3E52511BE5900B541CC /* LaunchScreen.storyboard in Resources */,
+				2101D4172512C3F500B541CC /* San Antonio.json in Resources */,
+				21F97A10252395CA007ABE2B /* FilterData.plist in Resources */,
+				2101D4162512C3F500B541CC /* Charleston.json in Resources */,
+				21F5CE282523EBD400E75A96 /* PhotoFilter.storyboard in Resources */,
+				21F979EF25227BCE007ABE2B /* ExploreData.plist in Resources */,
+				2101D3E72511BE5900B541CC /* Assets.xcassets in Resources */,
+				21F979FD2522C6DA007ABE2B /* Explore.storyboard in Resources */,
+				2101D4132512C3F500B541CC /* Las Vegas.json in Resources */,
+				211B6823252D7D46007A0957 /* NotificationSettings.storyboard in Resources */,
+				2101D4152512C3F500B541CC /* Portland.json in Resources */,
+				2101D40E2512C3F500B541CC /* Los Angeles.json in Resources */,
+				211B67C9252D2B75007A0957 /* sample-restaurant-img@2x.png in Resources */,
+				21F97A052522D129007ABE2B /* ReviewForm.storyboard in Resources */,
+				2101D4142512C3F500B541CC /* New Orleans.json in Resources */,
+				2101D40D2512C3F500B541CC /* San Francisco.json in Resources */,
+				211B67C8252D2B75007A0957 /* sample-restaurant-img.png in Resources */,
+				211B67CA252D2B75007A0957 /* sample-restaurant-img@3x.png in Resources */,
+				2198FC6F251D53D9000E5A96 /* Map.storyboard in Resources */,
+				2101D40C2512C3F500B541CC /* Miami.json in Resources */,
+				2101D4102512C3F500B541CC /* Aspen.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211B673B252D0D7E007A0957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B67C1252D1720007A0957 /* RestaurantMessageCell.swift in Sources */,
+				211B6745252D0D7E007A0957 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6762252D0EAF007A0957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B67A3252D0FDE007A0957 /* RestaurantDataManager.swift in Sources */,
+				211B67A2252D0FDE007A0957 /* RestaurantItem.swift in Sources */,
+				211B67A4252D0FDE007A0957 /* RestaurantAPIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6808252D7A95007A0957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B6811252D7A95007A0957 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6827252E37A9007A0957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B682E252E37A9007A0957 /* IntentHandler.swift in Sources */,
+				211B6856252E3C40007A0957 /* RestaurantContact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B6830252E37A9007A0957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B6839252E37A9007A0957 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C55B0250427720039E429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B6822252D7D46007A0957 /* NotificationSettingsViewController.swift in Sources */,
+				211B6739252CFBBD007A0957 /* Device.swift in Sources */,
+				211B67CE252D2E00007A0957 /* Identifier.swift in Sources */,
+				21F97A14252396E5007ABE2B /* FilterItem.swift in Sources */,
+				21F97A0C2522D63A007ABE2B /* ReviewFormViewController.swift in Sources */,
+				213B884B252BB799000ABCA7 /* PhotoReviewViewController.swift in Sources */,
+				2101D3E82511BE5900B541CC /* AppDelegate.swift in Sources */,
+				21F979DF25227BAA007ABE2B /* LocationItem.swift in Sources */,
+				2101D3F42511BE5A00B541CC /* MapViewController.swift in Sources */,
+				21F979DB25227BAA007ABE2B /* LocationViewController.swift in Sources */,
+				211B6850252E3AE0007A0957 /* RestaurantContact.swift in Sources */,
+				21F979F92522BCB4007ABE2B /* RatingsView.swift in Sources */,
+				21F5CE372526938000E75A96 /* LetsEatModel.xcdatamodeld in Sources */,
+				213B883F252BA0D3000ABCA7 /* ReviewsViewController.swift in Sources */,
+				21F979EC25227BCE007ABE2B /* ExploreViewController.swift in Sources */,
+				213B8847252BA69B000ABCA7 /* ReviewCell.swift in Sources */,
+				2101D3E42511BE5900B541CC /* Segue.swift in Sources */,
+				2101D3FA2511BE5A00B541CC /* SceneDelegate.swift in Sources */,
+				2198FC7E251DA670000E5A96 /* NoDataView.swift in Sources */,
+				21F979EE25227BCE007ABE2B /* ExploreDataManager.swift in Sources */,
+				21F97A18252397D9007ABE2B /* FilterManager.swift in Sources */,
+				21F5CE462526B0E700E75A96 /* ReviewDataManager.swift in Sources */,
+				21F5CE3A2526966900E75A96 /* ReviewItem.swift in Sources */,
+				2198FC74251D944D000E5A96 /* RestaurantCell.swift in Sources */,
+				21F979F125227BCE007ABE2B /* ExploreHeaderView.swift in Sources */,
+				21F5CE2B2523ED4500E75A96 /* PhotoFilterViewController.swift in Sources */,
+				21F5CE4225269CD700E75A96 /* CoreDataManager.swift in Sources */,
+				21F979DD25227BAA007ABE2B /* LocationDataManager.swift in Sources */,
+				21F5CE3E2526984F00E75A96 /* RestaurantPhotoItem.swift in Sources */,
+				2101D3EA2511BE5900B541CC /* RestaurantDetailViewController.swift in Sources */,
+				21F979F025227BCE007ABE2B /* ExploreCell.swift in Sources */,
+				213B884E252BBA8A000ABCA7 /* PhotoCell.swift in Sources */,
+				21F5CE252523EAA800E75A96 /* FilterCell.swift in Sources */,
+				21F979ED25227BCE007ABE2B /* ExploreItem.swift in Sources */,
+				21F97A1B252398B5007ABE2B /* ImageFiltering.swift in Sources */,
+				2101D3EB2511BE5A00B541CC /* RestaurantListViewController.swift in Sources */,
+				2101D3E32511BE5900B541CC /* DataManager.swift in Sources */,
+				2101D3F72511BE5A00B541CC /* MapDataManager.swift in Sources */,
+				21F97A1E25239AC6007ABE2B /* PhotoItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		211B674D252D0D80007A0957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211B673E252D0D7E007A0957 /* MessageApp */;
+			targetProxy = 211B674C252D0D80007A0957 /* PBXContainerItemProxy */;
+		};
+		211B676C252D0EAF007A0957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211B6765252D0EAF007A0957 /* LetsEatDataKit */;
+			targetProxy = 211B676B252D0EAF007A0957 /* PBXContainerItemProxy */;
+		};
+		211B6817252D7A95007A0957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211B680B252D7A95007A0957 /* LetsEatNotificationExtension */;
+			targetProxy = 211B6816252D7A95007A0957 /* PBXContainerItemProxy */;
+		};
+		211B683F252E37A9007A0957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211B6833252E37A9007A0957 /* MakePaymentUI */;
+			targetProxy = 211B683E252E37A9007A0957 /* PBXContainerItemProxy */;
+		};
+		211B6842252E37A9007A0957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211B682A252E37A9007A0957 /* MakePayment */;
+			targetProxy = 211B6841252E37A9007A0957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2101D3C02511BE5900B541CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2101D3C12511BE5900B541CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2101D3C22511BE5900B541CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2101D3C32511BE5900B541CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		211B6812252D7A95007A0957 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211B6813252D7A95007A0957 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		211B683A252E37A9007A0957 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211B683B252E37A9007A0957 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		211B6750252D0D80007A0957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = MessageApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat.MessageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		211B6751252D0D80007A0957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = MessageApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat.MessageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		211B6770252D0EAF007A0957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LetsEatDataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEatDataKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		211B6771252D0EAF007A0957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LetsEatDataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEatDataKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		211B681A252D7A95007A0957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = LetsEatNotificationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat.LetsEatNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		211B681B252D7A95007A0957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = LetsEatNotificationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat.LetsEatNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		211B6845252E37A9007A0957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = MakePaymentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat.MakePaymentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		211B6846252E37A9007A0957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = MakePaymentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat.MakePaymentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		211B6848252E37A9007A0957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = MakePayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat.MakePayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		211B6849252E37A9007A0957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = MakePayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat.MakePayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		217C55C6250427740039E429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		217C55C7250427740039E429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217C55C9250427740039E429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LetsEat/LetsEat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = LetsEat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		217C55CA250427740039E429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LetsEat/LetsEat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QN47ZF6Y79;
+				INFOPLIST_FILE = LetsEat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuclideanSoftware.LetsEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211B674F252D0D80007A0957 /* Build configuration list for PBXNativeTarget "MessageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B6750252D0D80007A0957 /* Debug */,
+				211B6751252D0D80007A0957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211B676F252D0EAF007A0957 /* Build configuration list for PBXNativeTarget "LetsEatDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B6770252D0EAF007A0957 /* Debug */,
+				211B6771252D0EAF007A0957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211B6819252D7A95007A0957 /* Build configuration list for PBXNativeTarget "LetsEatNotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B681A252D7A95007A0957 /* Debug */,
+				211B681B252D7A95007A0957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211B6844252E37A9007A0957 /* Build configuration list for PBXNativeTarget "MakePaymentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B6845252E37A9007A0957 /* Debug */,
+				211B6846252E37A9007A0957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211B6847252E37A9007A0957 /* Build configuration list for PBXNativeTarget "MakePayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B6848252E37A9007A0957 /* Debug */,
+				211B6849252E37A9007A0957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217C55AF250427720039E429 /* Build configuration list for PBXProject "LetsEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217C55C6250427740039E429 /* Debug */,
+				217C55C7250427740039E429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217C55C8250427740039E429 /* Build configuration list for PBXNativeTarget "LetsEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217C55C9250427740039E429 /* Debug */,
+				217C55CA250427740039E429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21F5CE352526938000E75A96 /* LetsEatModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21F5CE362526938000E75A96 /* LetsEatModel.xcdatamodel */,
+			);
+			currentVersion = 21F5CE362526938000E75A96 /* LetsEatModel.xcdatamodel */;
+			path = LetsEatModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 217C55AC250427720039E429 /* Project object */;
+}

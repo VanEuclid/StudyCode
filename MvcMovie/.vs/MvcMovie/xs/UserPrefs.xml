@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{A80A836C-0920-467F-96B4-09CDF7CA049B}|MvcMovie">
+  <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMovie/Controllers/MoviesController.cs">
+    <Files>
+      <File FileName="MvcMovie/Controllers/MoviesController.cs" Line="159" Column="14" />
+      <File FileName="MvcMovie/Views/Movies/Index.cshtml" Line="63" Column="18" />
+      <File FileName="MvcMovie/Startup.cs" Line="34" Column="1" />
+      <File FileName="MvcMovie/appsettings.json" />
+      <File FileName="MvcMovie/Models/SeedData.cs" Line="47" Column="36" />
+      <File FileName="MvcMovie/Program.cs" Line="43" Column="2" />
+      <File FileName="MvcMovie/Models/Movies.cs" Line="33" Column="6" />
+      <File FileName="MvcMovie/Views/Movies/Edit.cshtml" Line="39" Column="49" />
+      <File FileName="MvcMovie/Models/MovieGenreViewModel.cs" Line="13" Column="2" />
+      <File FileName="MvcMovie/Views/Movies/Create.cshtml" Line="38" Column="49" />
+      <File FileName="MvcMovie/Views/Movies/Delete.cshtml" />
+      <File FileName="MvcMovie/Views/Movies/Details.cshtml" Line="41" Column="51" />
+      <File FileName="MvcMovie/Migrations/20200822201404_InitialCreate.cs" Line="23" Column="18" />
+      <File FileName="MvcMovie/Migrations/MvcMovieContextModelSnapshot.cs" Line="26" Column="48" />
+      <File FileName="MvcMovie/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="MvcMovie/Controllers/HelloWorldController.cs" Line="1" Column="1" />
+      <File FileName="MvcMovie/Views/HelloWorld/Index.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Views/HelloWorld/TestMethod.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Views/HelloWorld/Welcome.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="MvcMovie/Migrations/20200822201404_InitialCreate.Designer.cs" Line="30" Column="47" />
+      <File FileName="MvcMovie/Data/MvcMovieContext.cs" Line="1" Column="1" />
+      <File FileName="MvcMovie/Properties/launchSettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MvcMovie" expanded="True">
+            <Node name="MvcMovie" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="MoviesController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20200822201404_InitialCreate.cs" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Movies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
