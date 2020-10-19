@@ -98,6 +98,7 @@
 		213B8847252BA69B000ABCA7 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B8846252BA69B000ABCA7 /* ReviewCell.swift */; };
 		213B884B252BB799000ABCA7 /* PhotoReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B884A252BB799000ABCA7 /* PhotoReviewViewController.swift */; };
 		213B884E252BBA8A000ABCA7 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B884D252BBA8A000ABCA7 /* PhotoCell.swift */; };
+		215F8B32253E0D2A00C5435B /* LetsEatDataKit.h in Resources */ = {isa = PBXBuildFile; fileRef = 211B6768252D0EAF007A0957 /* LetsEatDataKit.h */; };
 		2198FC68251D52A1000E5A96 /* Restaurants.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2198FC67251D52A1000E5A96 /* Restaurants.storyboard */; };
 		2198FC6F251D53D9000E5A96 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2198FC6E251D53D9000E5A96 /* Map.storyboard */; };
 		2198FC74251D944D000E5A96 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198FC73251D944D000E5A96 /* RestaurantCell.swift */; };
@@ -879,7 +880,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Euclidean Software LLC";
 				TargetAttributes = {
 					211B673E252D0D7E007A0957 = {
@@ -997,6 +998,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215F8B32253E0D2A00C5435B /* LetsEatDataKit.h in Resources */,
 				2101D40B2512C3F500B541CC /* Boston.json in Resources */,
 				2101D3E92511BE5900B541CC /* RestaurantDetail.storyboard in Resources */,
 				2101D4122512C3F500B541CC /* Chicago.json in Resources */,
@@ -1442,6 +1444,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1502,6 +1505,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
