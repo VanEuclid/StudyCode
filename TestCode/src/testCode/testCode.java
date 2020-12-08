@@ -1,6 +1,29 @@
 package testCode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
+
+interface One {
+	default void method() {
+		System.out.println("One");
+	}
+}
+
+interface Two {
+	default void method() {
+		System.out.println("One");
+	}
+}
+
+class Three implements One, Two {
+	public void method() {
+		One.super.method();
+	}
+}
 
 
 public class testCode {
@@ -11,6 +34,33 @@ public class testCode {
 		
 //		String output = timeConversion("07:05:45PM");
 //		System.out.println(output);
+		
+//		String str = "abcde";
+//		str.trim();
+//		str.toUpperCase();
+//		str.substring(3,4);
+//		System.out.println(str);
+//		
+//		String str2 = "abcde";
+//		str2 = str2.trim();
+//		str2 = str2.toUpperCase();
+//		str2 = str2.substring(3,4);
+//		System.out.println(str2);
+		
+//		int x = 5;
+//		x = 10;
+//		System.out.println(x);
+//		
+//		System.out.println("strawberries".substring(2, 5));
+//		System.out.println(Boolean.parseBoolean("FalSe"));
+//		
+//		int a = 1;
+//		int b = 0;
+//		int c = a/b;
+//		System.out.println(c);
+//		List<Integer> results = new ArrayList<Integer>();
+		
+		System.out.println(Math.pow(2, 1));
 	}
 
     static String timeConversion(String s) {
